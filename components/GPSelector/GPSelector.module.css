@@ -1,0 +1,9 @@
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.Wrapper select { 
+    border-radius: unset;
+    padding: .5em 1em;
+}

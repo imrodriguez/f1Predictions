@@ -1,0 +1,11 @@
+.Button {
+    background: rgb(225, 6, 0);
+    border: none;
+    font-family: F1;
+    padding: 0.5rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}

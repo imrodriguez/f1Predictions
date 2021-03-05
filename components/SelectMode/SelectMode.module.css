@@ -1,0 +1,18 @@
+.Wrapper {
+    padding: 2em;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.Wrapper > div {
+    margin: 1em;
+}
+
+.Description {
+    font-family: F1Bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0;
+}

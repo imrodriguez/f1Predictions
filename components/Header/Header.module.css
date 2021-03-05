@@ -1,0 +1,57 @@
+.BarWrapper {
+  background: rgb(225, 6, 0);
+  color: #fff;
+}
+
+.BarWrapper a {
+  color: #fff;
+}
+
+.Bar {
+  display: flex;
+  height: 4em;
+  padding: 0.5em 1em;
+  align-items: center;
+}
+
+.Bar>div:first-child {
+  flex-grow: 1;
+}
+
+.Logo {
+  height: 3em;
+}
+
+.Nav {
+  text-align: rigth;
+}
+
+.Nav ul {
+  list-style: none;
+}
+
+.Nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  font-family: var(--font-primary);
+  font-weight: 200;
+}
+
+.Nav ul li:hover {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.HamburguerToggle {
+  display: none;
+  cursor: pointer;
+}
+
+.HamburguerToggle svg {
+  font-size: 1.5em;
+}

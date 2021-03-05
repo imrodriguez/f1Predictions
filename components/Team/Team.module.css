@@ -1,0 +1,24 @@
+.Wrapper {
+    border-top-right-radius: 1em;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-top: solid .3em #000;
+    border-right: solid .3em #000;
+}
+
+.Standing {
+    font-family: F1Bold;
+    font-size: 1.5em;
+    padding: 1rem;
+}
+
+.Name {
+    font-family: F1;
+    margin-right: .5em;
+}
+
+.Image {
+    max-height: 2em;
+    margin-right: 1em;
+}

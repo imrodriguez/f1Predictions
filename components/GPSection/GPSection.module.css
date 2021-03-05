@@ -1,0 +1,31 @@
+.Background {
+    background: rgb(225, 6, 0);
+    color: #fff;
+    padding:  .5em 1em;
+}
+
+.Title {
+    font-family: F1;
+
+}
+
+.Wrapper { 
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.Flag {
+    display: flex;
+    align-items: center;
+}
+
+.Flag img {
+    max-height: 3em;
+}
+
+.Place {
+    font-family: F1;
+    font-size: 3em;
+    margin: 0;
+}

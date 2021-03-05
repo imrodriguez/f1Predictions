@@ -1,0 +1,12 @@
+.Item {
+    margin: 0 0 .7em 0;
+}
+
+.List {
+    background: lightgrey;
+    padding: 1em;
+}
+
+.List[data-draggable="true"] {
+    background: lightblue;
+}

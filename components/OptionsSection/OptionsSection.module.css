@@ -1,0 +1,9 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Wrapper > div {
+    margin: 1em;
+}
