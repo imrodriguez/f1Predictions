@@ -5,11 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "getDrivers": "node actions/getDrivers.js",
+    "getTeams": "node actions/getTeams.js",
+    "getGPs": "node actions/getGPs.js"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "html2canvas": "^1.0.0-rc.7",
     "next": "10.0.7",
+    "node-fetch": "^2.6.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "17.0.1",
+    "uuid": "^8.3.2"
   }
 }

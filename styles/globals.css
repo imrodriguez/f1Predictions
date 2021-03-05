@@ -1,3 +1,13 @@
+@font-face {
+  font-family: F1Bold;
+  src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff2);
+}
+
+@font-face {
+  font-family: F1;
+  src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2);
+}
+
 html,
 body {
   padding: 0;
@@ -6,8 +16,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  min-height: 100vh;
+}
+
+#__next {
+  min-height: 100vh;
+}
+
 a {
-  color: inherit;
+  color: rgb(225, 6, 0);
   text-decoration: none;
 }
 
