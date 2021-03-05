@@ -9,7 +9,7 @@ const DownloadButton = ({ id, text }) => {
       const d = canvas.toDataURL("image/png");
       var link = document.createElement("a");
       link.href = d;
-      link.download = "Download.jpg";
+      link.download = "F1Prediction.jpg";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
