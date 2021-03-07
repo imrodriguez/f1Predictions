@@ -3,6 +3,7 @@ import { Button } from '../Button';
 
 const DownloadButton = ({ id, text }) => {
   const downloadImage = () => {
+    window.scrollTo(0, 0);
     const node = document.getElementById(id);
 
     html2canvas(node).then(function (canvas) {
