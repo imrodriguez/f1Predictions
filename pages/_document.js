@@ -47,6 +47,16 @@ export default class MyDocument extends Document {
             type="font/woff2"
             crossorigin="anonymous"
           />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQKS9BFTLJ"></script>
+          <script dangerouslySetInnerHTML={{
+            __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NQKS9BFTLJ');
+  `
+          }} />
         </Head>
         <body>
           <Main />
