@@ -1,7 +1,13 @@
+.CenterScreen {
+    min-height: 73vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .Wrapper {
     padding: 2em;
     display: flex;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
