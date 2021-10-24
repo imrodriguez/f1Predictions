@@ -17,7 +17,7 @@ const DownloadButton = ({ id, text }) => {
     });
   };
 
-  return <div><Button action={downloadImage}>{text}</Button></div>;
+  return <Button action={downloadImage}>{text}</Button>;
 };
 
 export { DownloadButton };
